@@ -1,0 +1,8 @@
+requests
+pandas
+numpy
+scikit-learn
+tqdm
+progressbar
+matplotlib
+pillow
