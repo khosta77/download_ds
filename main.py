@@ -43,7 +43,7 @@ def download_image(url, class_number, i, max_size=(256, 256)):
         #print(f"Изображение сохранено как {output_path}")
     except Exception as e:
         pass
-        #print(f"Произошла ошибка: {e}")
+        print(f"Произошла ошибка: {e}")
 
 if __name__ == "__main__":
     df = pd.read_csv('labirint_dataset.csv', sep=';')
